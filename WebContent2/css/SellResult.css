@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+html {
+	height: 722px;
+	width: 1536px;
+}
+
+.container {
+	height: 80px;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+}

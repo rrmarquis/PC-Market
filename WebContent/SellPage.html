@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> PC Market </h1>
+</header>
+
+<nav>
+<a href="http://localhost:8080/PCMarket/DispalyServlet">View All Products</a> <br>
+</nav>
+
+<section>
+	<h1>Sell an Item</h1>
+	
+	<form action="SellServlet" method="POST">
+	
+		Part Type: <input type="text" name="partType"> <br />
+		<br />
+		Model Name: <input type="text" name="model"> <br />
+		<br />
+		Price: <input type="text" name="price"> <br />
+		<br />
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>

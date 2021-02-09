@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+html {
+	height: 722px;
+	width: 1536px;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.listing {
+	height: 642px;
+	width: 800px;
+	display: flex;
+	flex-direction: row;
+}
+
+.leftside {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.cpu-model {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+ }
+
+.cpu-cores {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.cpu-freq {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.cpu-socket {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.gpu-model {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.gpu-clockspeed {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.gpu-interface {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.gpu-memory {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.harddrive-model {
+	height: 33%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+
+.harddrive-storage {
+	height: 33%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.harddrive-rpm {
+	height: 33%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.motherboard-model {
+	height: 33%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.motherboard-socket {
+	height: 33%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.motherboard-expansion {
+	height: 33%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.rightside {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	height: 75%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.purchase {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+img {
+	height: 250px;
+	width: 250px;
+}
